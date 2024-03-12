@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Inscripción</title>
+</head>
+<body>
+    <h2>Formulario de Inscripción</h2>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Información de Contacto</legend>
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div>
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Preferencias del Usuario</legend>
+            <div>
+                <input type="checkbox" id="newsletter" name="newsletter">
+                <label for="newsletter">Suscribirse al Newsletter</label>
+            </div>
+            <div>
+                <input type="checkbox" id="terminos" name="terminos" required>
+                <label for="terminos">Acepto los Términos y Condiciones</label>
+            </div>
+        </fieldset>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
